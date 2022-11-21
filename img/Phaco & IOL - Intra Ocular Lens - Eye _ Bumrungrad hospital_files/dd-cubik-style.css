@@ -1,0 +1,113 @@
+#cubik-bot-frame {
+    right: 25px;
+    bottom: 25px;
+    position: fixed;
+    z-index: 9999;
+}
+
+#cubik-bot-frame a {
+    position: relative;
+}
+
+#cubik-bot-frame a.cubik-open-bot {
+    background-color: #129bf4;
+    color: #fff;
+    line-height: 55px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    box-shadow: 2px 2px 8px -3px #000;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    display: inline-block;
+}
+
+#cubik-bot-frame a.cubik-open-bot i {
+    line-height: 55px;
+}
+
+#cubik-bot-frame a.cubik-open-bot i.fa-times {
+    display: none;
+}
+
+#cubik-bot-frame .sywh-services {
+    width: 55px;
+    height: auto;
+}
+
+#cubik-bot-frame .sywh-services a {
+    display: none;
+}
+
+#cubik-bot-frame .sywh-services a i {
+    background-color: #129bf4;
+    color: #fff;
+    line-height: 55px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    box-shadow: 2px 2px 8px -3px #000;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+}
+
+#cubik-bot-frame .sywh-services a.email i {
+    background-color: #b92b27;
+}
+
+#cubik-bot-frame .sywh-services a.instagram i {
+    background-color: #e4405f;
+}
+
+#cubik-bot-frame .sywh-services a.messenger i {
+    background-color: #0084ff;
+}
+
+#cubik-bot-frame .sywh-services a.whatsapp i {
+    background-color: #25d366;
+}
+
+#cubik-bot-frame .sywh-services a.call i {
+    background-color: #ff6600;
+}
+
+#cubik-bot-frame .sywh-services a {
+    display: initial;
+    color: white;
+}
+
+#cubik-bot-frame .ddlg-chat {
+    min-height: 200px;
+    max-height: 600px;
+    height: calc(100vh - 90px);
+    width: calc(100vw);
+    min-width: 200px;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px -3px #000;
+    position: relative;
+    right: 350px;
+    display: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.bg-transparent {
+	background-color: rgba(255, 255, 255, 0);
+	box-shadow: none;
+}

@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(45deg, hsl(0, 83%, 91%), rgb(216, 251, 250));
+  }
+.prent_container img{
+  width: 400px;
+  height: 400px;
+}
+.prent_container{
+    width: 50%;
+}
+.container_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* hello  */
+.img{
+    width:50%;
+    margin-top:20px;
+}
+.red{
+    color: rgb(248, 51, 16);
+    font-weight: bold;
+}
+
+.green{
+    color:rgb(2, 2, 122);
+}
+.teal{
+    color:rgba(0, 144, 0, 0.916);
+}
+.chocolate{
+   color: #ff1313;
+}
+.Fellow{
+    color:rgb(163, 35, 218);
+}
+.purple{
+    color:#ee0e33;
+}
+.brown{
+    color:rgb(211, 41, 41);
+}
+.pink{
+    color:rgba(52, 159, 6, 0.966);
+    font-weight: bold;
+}
+/*  header section*/
+
+
+/*  meddle section*/
+.meddle-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.meddle-content{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*3rd-content*/
+.third-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.third-content{
+   margin-top:20px;
+   justify-content: center;
+}
+
+.pain h3{
+    font-weight: 900;
+    font-size: 48px;
+}
+.pain i{
+    font-size: 150px;
+    color: red;
+}
+.p-tag{
+    text-align: center;
+    margin-top:50px;
+    color:green;
+
+}
+.h2{
+    color:rgba(246, 18, 90, 0.927);
+    font-weight: bold;
+}
+#text{
+   color:red;
+}
