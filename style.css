@@ -83,10 +83,15 @@ body {
     color:green;
 
 }
+
 .h2{
-    color:rgba(246, 18, 90, 0.927);
+    color:rgba(36, 3, 13, 0.927);
     font-weight: bold;
 }
 #text{
-   color:red;
+   color:#ff0f0f;
+}
+.End{
+    margin-top:50px;
+    color:rgb(75, 3, 3)
 }
